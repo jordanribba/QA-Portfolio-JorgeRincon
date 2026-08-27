@@ -1,0 +1,22 @@
+**ID:** TC-002
+- **Aplicación:** Gmail
+- **Módulo:** Autenticacion/login
+- **Precondiciones:** 
+- 1.Tener un navegador web abierto
+- 2.Tener conexión a Internet activa
+- 3.Contar con una cuenta de Gmail valida activa
+- 4.No haber iniciado sesión previamente
+- **Pasos:**
+1. Abrir el navegador e ingresar a la URL `www.gmail.com`.
+2. Verificar que se muestre la pantalla de "Iniciar sesión".
+3. Ingresar la dirección de correo electrónico en el campo "Correo o teléfono".
+4. Hacer clic en el botón "Siguiente".
+5. Ingresar la contraseña correcta en el campo "Introduce tu contraseña".
+6. Hacer clic en el botón "Siguiente".
+- **Resultado esperado:** El sistema valida las credenciales y redirige al usuario a la bandeja de entrada, mostrando los correos recibidos.
+- **Resultado real:** El sistema validó las credenciales y redirigió a la bandeja de entrada exitosamente.
+- **Severidad:** Alta
+- **Prioridad:** Alta
+- **Estado:** Pass
+[[TC-001 Enviar mensaje de texto]].[[Tipos de Pruebas]]
+#qa #caso-prueba
